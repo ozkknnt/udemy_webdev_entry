@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <title>テーブルの演習</title>
+
+  </head>
+  <body>
+      <h2>シンプルな表</h2>
+      <table border="1">
+          <tr> <!-- table row テーブルの横一行-->
+              <th>姓</th> <!-- table header テーブルの見出しセル-->
+              <th>名</th>
+          </tr>
+          <tr>
+              <td>山田</td> <!-- table data cell テーブルのデータセル-->
+              <td>太郎</td>
+          </tr>
+          <tr>
+              <td>田中</td>
+              <td>花子</td>
+          </tr>
+      </table>
+
+      <h2>thead, tfoot, tbody</h2>
+      <!-- それぞれtable header　table footer , tabla bodyの略-->
+
+      <table border="1">
+          <thead>
+              <tr>
+                  <th>ヘッダ1</th>
+                  <th>ヘッダ2</th>
+              </tr>
+          </thead>
+          <tbody>
+            <tr>
+                <td>データ1</td>
+                <td>データ2</td>
+            </tr>
+          </tbody>
+          <tfoot>
+            <tr>
+                <td>フッター1</td>
+                <td>フッター2</td>
+            </tr>
+          </tfoot>
+      </table>
+
+      <h2>セルの結合</h2>
+      <h3>横に結合</h3>
+      <table border="1">
+        <tr>
+            <th colspan="3">横に結合</th>
+        </tr>
+        <tr>
+            <td>データ1</td>
+            <td>データ2</td>
+            <td>データ3</td>
+        </tr>
+      </table>
+
+      <h3>縦に結合</h3>
+      <table border="1">
+        <tr>
+            <td rowspan="3">縦方向に結合</td>
+            <td>データ1</td>
+        </tr>
+        <tr>
+            <td>データ2</td>
+        </tr>
+        <tr>
+            <td>データ3</td>
+        </tr>
+      </table>
+
+      <h2>caption</h2>
+      <table border="1">
+          <caption>キャプション</caption>
+          <tr>
+            <td>データ1</td>
+            <td>データ2</td>
+            <td>データ3</td>
+        </tr>
+
+        
+
+
+  </body>
+</html>
