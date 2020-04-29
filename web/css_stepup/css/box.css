@@ -1,0 +1,15 @@
+#box {
+    /* padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px; */
+
+    padding: 10px 10px 10px 10px; /*上右下左 */
+    padding: 10px; /*全て同一の値であれば省略可能 */
+
+    border: red 10px solid;
+
+    margin-top: 10px;
+
+    /* marginもpaddingと同様に記述することが可能 */
+}

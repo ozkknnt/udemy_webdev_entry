@@ -1,0 +1,23 @@
+#wrap {
+    width: 100%;
+}
+
+#box1 {
+    background-color: red;
+    color: white;
+    width: 50%;
+    float: left;
+}
+
+#box2 {
+    background-color: green;
+    color: white;
+    width: 50%;
+    float: right;
+}
+
+#box3 {
+    background-color: blue;
+    color: white;
+    clear: both;
+}

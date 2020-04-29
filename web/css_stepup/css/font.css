@@ -1,0 +1,22 @@
+body {
+    /* font-family: serif; */
+    /* font-family: sans-serif; */
+    font-family: "メイリオ";
+}
+
+p {
+    font-size: 24px;
+    /* font-weight: bold; */
+    font-weight: normal;
+    line-height: 3.0;
+}
+
+h1 {
+    /* text-align: left; */
+    /* text-align: center; */
+    text-align: right;
+
+    /* text-decoration: underline; */
+    /* text-decoration: overline; */
+    text-decoration: line-through;
+}
