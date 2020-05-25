@@ -11,5 +11,7 @@ function append() {
   li.appendChild(text);
 
   // idがlistsのulタグに、liを追加。具体的には<li>追加文字列</li>が、追加される。
-  lists.appendChild(li);
+  // lists.appendChild(li);
+  var listsElement = document.getElementById('lists');
+  listsElement.appendChild(li);
 }
