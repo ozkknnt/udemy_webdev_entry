@@ -1,0 +1,56 @@
+変数
+
+$ irb
+2.5.0 :001 > s = 'Hello!'
+ => "Hello!" 
+2.5.0 :002 > puts s
+Hello!
+ => nil 
+2.5.0 :003 > n = 10 * 2
+ => 20 
+2.5.0 :004 > puts n
+20
+ => nil 
+2.5.0 :005 > i
+Traceback (most recent call last):
+        2: from /usr/local/rvm/rubies/ruby-2.5.0/bin/irb:11:in `<main>'
+        1: from (irb):5
+NameError (undefined local variable or method `i' for main:Object)
+2.5.0 :006 > i = nil
+ => nil 
+2.5.0 :007 > price = 100
+ => 100 
+2.5.0 :008 > price1 = 100
+ => 100 
+2.5.0 :009 > _price = 100
+ => 100 
+2.5.0 :010 > 1price = 100
+Traceback (most recent call last):
+        1: from /usr/local/rvm/rubies/ruby-2.5.0/bin/irb:11:in `<main>'
+SyntaxError ((irb):10: syntax error, unexpected tIDENTIFIER, expecting end-of-input
+1price = 100
+ ^~~~~)
+2.5.0 :011 > price_cost = 30
+ => 30 
+2.5.0 :012 > priceCost = 30
+ => 30 
+2.5.0 :013 > 
+2.5.0 :013 > x = 'abc'
+ => "abc" 
+2.5.0 :014 > x = 123
+ => 123 
+2.5.0 :015 > x = 'def'
+ => "def" 
+2.5.0 :016 > x = 456
+ => 456 
+2.5.0 :017 > i, j = 1, 2
+ => [1, 2] 
+2.5.0 :018 > puts i
+1
+ => nil 
+2.5.0 :019 > puts j
+2
+ => nil 
+2.5.0 :020 > a = b = 10
+ => 10 
+2.5.0 :021 > 

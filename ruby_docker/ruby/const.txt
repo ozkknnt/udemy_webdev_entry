@@ -1,0 +1,20 @@
+定数
+
+$ irb
+2.5.0 :001 > TAX = 1.08
+ => 1.08 
+2.5.0 :002 > puts TAX
+1.08
+ => nil 
+2.5.0 :003 > TAX_RATE = 1.08
+ => 1.08 
+2.5.0 :004 > puts TAX_RATE
+1.08
+ => nil 
+2.5.0 :005 > TAX_RATE = 1.1
+(irb):5: warning: already initialized constant TAX_RATE
+(irb):3: warning: previous definition of TAX_RATE was here
+ => 1.1 
+2.5.0 :006 > puts TAX_RATE
+1.1
+ => nil 
