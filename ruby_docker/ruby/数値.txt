@@ -1,0 +1,47 @@
+$ irb
+2.5.0 :001 > 100
+ => 100 
+2.5.0 :002 > -50
+ => -50 
+2.5.0 :003 > 2.5
+ => 2.5 
+2.5.0 :004 > -5.25
+ => -5.25 
+2.5.0 :005 > 1 + 1
+ => 2 
+2.5.0 :006 > 10 - 1
+ => 9 
+2.5.0 :007 > 13 * 2
+ => 26 
+2.5.0 :008 > 100 / 5
+ => 20 
+2.5.0 :009 > x = 1
+ => 1 
+2.5.0 :010 > -x
+ => -1 
+2.5.0 :011 > 3 / 2
+ => 1 
+2.5.0 :012 > 3.0 / 2
+ => 1.5 
+2.5.0 :013 > 3 / 2.0
+ => 1.5 
+2.5.0 :014 > 3.0 / 2.0
+ => 1.5 
+2.5.0 :015 > 10 % 3
+ => 1 
+2.5.0 :016 > 10 ** 3
+ => 1000 
+2.5.0 :017 > x = 3
+ => 3 
+2.5.0 :018 > x.to_f
+ => 3.0 
+2.5.0 :020 > x.to_f / 2
+ => 1.5 
+2.5.0 :021 > x / 2
+ => 1 
+2.5.0 :022 > 1.class
+ => Integer 
+2.5.0 :023 > 1.1.class
+ => Float 
+2.5.0 :024 > 1.methods
+ => [:-@, :**, :<=>, :upto, :<<, :<=, :>=, :==, :chr, :===, :>>, :[], :%, :&, :inspect, :+, :ord, :-, :/, :*, :size, :succ, :<, :>, :to_int, :coerce, :divmod, :fdiv, :to_s, :to_i, :remainder, :modulo, :magnitude, :integer?, :numerator, :denominator, :abs, :rationalize, :floor, :ceil, :round, :truncate, :lcm, :gcdlcm, :gcd, :to_r, :to_f, :odd?, :even?, :anybits?, :nobits?, :downto, :times, :pred, :allbits?, :pow, :bit_length, :^, :digits, :next, :div, :|, :~, :+@, :eql?, :singleton_method_added, :i, :real?, :zero?, :nonzero?, :finite?, :infinite?, :step, :positive?, :negative?, :rectangular, :arg, :real, :imag, :abs2, :imaginary, :angle, :phase, :conjugate, :to_c, :polar, :conj, :rect, :clone, :dup, :quo, :between?, :clamp, :instance_variable_set, :instance_variable_defined?, :remove_instance_variable, :instance_of?, :kind_of?, :is_a?, :tap, :instance_variable_get, :public_methods, :instance_variables, :singleton_method, :method, :public_method, :public_send, :define_singleton_method, :extend, :to_enum, :enum_for, :pp, :=~, :!~, :respond_to?, :freeze, :object_id, :send, :display, :nil?, :hash, :class, :singleton_class, :itself, :taint, :yield_self, :untaint, :tainted?, :untrusted?, :untrust, :frozen?, :trust, :methods, :singleton_methods, :protected_methods, :private_methods, :!, :equal?, :instance_eval, :instance_exec, :!=, :__id__, :__send__] 
