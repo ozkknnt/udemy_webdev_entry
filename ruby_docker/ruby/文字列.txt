@@ -1,0 +1,51 @@
+$ irb
+2.5.0 :001 > 'abcdef'
+ => "abcdef" 
+2.5.0 :002 > "abcdef"
+ => "abcdef" 
+2.5.0 :003 > puts "Ruby\nPrograming"
+Ruby
+Programing
+ => nil 
+2.5.0 :004 > puts 'Ruby\nPrograming'
+Ruby\nPrograming
+ => nil 
+2.5.0 :005 > first_name = 'Hanako'
+ => "Hanako" 
+2.5.0 :006 > last_name = 'Yamada'
+ => "Yamada" 
+2.5.0 :007 > puts "My name is #{first_name} #{last_name}."
+My name is Hanako Yamada.
+ => nil 
+2.5.0 :008 > puts 'My name is #{first_name} #{last_name}.'
+My name is #{first_name} #{last_name}.
+ => nil 
+2.5.0 :009 > puts 'Taro' + 'Yamada'
+TaroYamada
+ => nil 
+2.5.0 :010 > puts 'Taro' + ' ' + 'Yamada'
+Taro Yamada
+ => nil 
+2.5.0 :011 > first_name + ' ' + last_name
+ => "Hanako Yamada" 
+2.5.0 :012 > puts first_name + ' ' + last_name                                                   
+Hanako Yamada
+ => nil 
+2.5.0 :013 > s = 'Hello World!'
+ => "Hello World!" 
+2.5.0 :014 > puts s.upcase
+HELLO WORLD!
+ => nil 
+2.5.0 :015 > puts s
+Hello World!
+ => nil 
+2.5.0 :016 > puts s.upcase! ⇛　破壊的メソッド
+HELLO WORLD!
+ => nil 
+2.5.0 :017 > puts s
+HELLO WORLD!
+ => nil 
+2.5.0 :018 > 'abc'.class
+ => String 
+2.5.0 :019 > 'abc'.methods
+ => [:include?, :%, :*, :+, :count, :partition, :to_c, :sum, :next, :casecmp, :casecmp?, :insert, :bytesize, :match, :match?, :succ!, :<=>, :next!, :index, :rindex, :upto, :==, :===, :chr, :=~, :byteslice, :[], :[]=, :scrub!, :getbyte, :replace, :clear, :scrub, :empty?, :eql?, :-@, :downcase, :upcase, :dump, :setbyte, :swapcase, :+@, :capitalize, :capitalize!, :undump, :downcase!, :oct, :swapcase!, :lines, :bytes, :split, :codepoints, :freeze, :inspect, :reverse!, :grapheme_clusters, :reverse, :hex, :scan, :upcase!, :crypt, :ord, :chars, :prepend, :length, :size, :start_with?, :succ, :sub, :intern, :chop, :center, :<<, :concat, :strip, :lstrip, :end_with?, :delete_prefix, :to_str, :to_sym, :gsub!, :rstrip, :gsub, :delete_suffix, :to_s, :to_i, :rjust, :chomp!, :strip!, :lstrip!, :sub!, :chomp, :chop!, :ljust, :tr_s, :delete, :rstrip!, :delete_prefix!, :delete_suffix!, :tr, :squeeze!, :each_line, :to_f, :tr!, :tr_s!, :delete!, :slice, :slice!, :each_byte, :squeeze, :each_codepoint, :each_grapheme_cluster, :valid_encoding?, :ascii_only?, :rpartition, :encoding, :hash, :b, :unicode_normalize!, :unicode_normalized?, :to_r, :force_encoding, :each_char, :encode, :encode!, :unpack, :unpack1, :unicode_normalize, :<=, :>=, :between?, :<, :>, :clamp, :instance_variable_set, :instance_variable_defined?, :remove_instance_variable, :instance_of?, :kind_of?, :is_a?, :tap, :instance_variable_get, :public_methods, :instance_variables, :singleton_method, :method, :public_method, :public_send, :define_singleton_method, :extend, :to_enum, :enum_for, :pp, :!~, :respond_to?, :object_id, :send, :display, :nil?, :class, :singleton_class, :clone, :itself, :dup, :taint, :yield_self, :untaint, :tainted?, :untrusted?, :untrust, :frozen?, :trust, :methods, :singleton_methods, :protected_methods, :private_methods, :!, :equal?, :instance_eval, :instance_exec, :!=, :__id__, :__send__] 
