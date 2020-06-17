@@ -1,0 +1,15 @@
+version: "3"
+
+services: 
+  web:
+    image: ozkknnt/ruby2.5:latest
+    environment:
+      - SPROCKETS_CACHE=/cache
+    volumes:
+      - /D/Udemy/UdemyWebDev/ruby_docker/ruby:/usr/src/ruby
+      - cache:/cache
+    ports:
+      - "4000:4000"
+
+volumes:
+  cache:
