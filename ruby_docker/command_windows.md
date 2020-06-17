@@ -5,8 +5,6 @@ docker build -t ozkknnt/ruby2.5:latest .
 - ボリューム指定してrun
 
 - ローカル側のパスは適宜
-docker run -it -d -v /D/Udemy/UdemyWebDev/ruby_docker/ruby:/usr/src/ruby -v cache:/cache -p 4000:4000 --name ruby2.5 ozkknnt/ruby2.5:latest
-
 docker run -it -d -v /D/Udemy/UdemyWebDev/ruby_docker/ruby:/usr/src/ruby -v cache:/cache -e SPROCKETS_CACHE=/cache -p 4000:4000 --name ruby2.5 ozkknnt/ruby2.5:latest
 
 
