@@ -7,6 +7,8 @@ docker build -t ozkknnt/ruby2.5:latest .
 - ローカル側のパスは適宜
 docker run -it -d -v /D/Udemy/UdemyWebDev/ruby_docker/ruby:/usr/src/ruby -v cache:/cache -e SPROCKETS_CACHE=/cache -p 4000:4000 --name ruby2.5 ozkknnt/ruby2.5:latest
 
+- Mac
+docker run -it -d -v /Users/kenta/Documents/udemy_study/UdemyWebDev/ruby_docker/ruby:/usr/src/ruby -v cache:/cache -e SPROCKETS_CACHE=/cache -p 4000:4000 --name ruby2.5 ozkknnt/ruby2.5:latest
 
 - docker hub にPush
 docker commit ruby2.5 ozkknnt/ruby2.5:latest
