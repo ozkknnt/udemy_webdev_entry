@@ -2,3 +2,5 @@
 FROM ozkknnt/ruby2.5:latest
 
 EXPOSE 4000
+
+RUN mkdir /root/.vscode-server/extensionsCache
